@@ -1,0 +1,67 @@
+1. CSS : Cascading Stylesheets 
+	- Styling language. (Programming language X)
+	- Used for Website layout and design
+
+2. 3 Methods for adding CSS
+	- Inline CSS : Directly in html element
+	- Internal CSS : Using <style> tags within a single document
+	- External CSS : Linking an external .css file (most used)
+
+3. CSS Selectors
+
+a {background-color : yello; }
+
+a : selector
+중괄호 : declaration start & end
+background-color : property
+colon (:) : property/value separator'
+yellow : value
+semi-colon : declaration separator
+
+4. Diverse colors in CSS
+
+- Just put color names
+- Hexadecimal
+6 zeros : black
+6 f : white
+- RGB
+rgb(0,0,255) : red, green, blue
+
+5. Font family로 Font를 설정할 수 있음. 
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:16px; 
+font-weight:normal;
+
+- Simple Setting
+font : normal Arial, Helvetica, sans-serif; 
+
+6. Box model
+
+margin - border - padding - content
+padding : space inside
+margin : space outside 
+
+p{
+	margin-top:5px
+	margin-bottom:5px
+	margin-right:5px
+	margin-left:5px
+}
+
+p{
+	margin:5px 10px 5px 10px
+}
+
+p{
+	margin:5px 10px
+}
+
+7. Positioning in CSS
+
+-Static
+-Relative
+-Absolute
+-Fixed
+-Initial
+-Inherit
