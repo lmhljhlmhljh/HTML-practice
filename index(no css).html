@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML cheat Sheet</title>
+	</head>
+	<body>
+		<!-- Headings -->
+		<h1>Heading One</h1>
+		<h2>Heading Two</h2>
+		<h3>Heading Three</h3>
+		<h4>Heading Four</h4>
+		<h5>Heading Five</h5>
+		<h6>Heading Six</h2>
+
+		<!--Paragraph -->
+		<p>
+			Hello, My name is <strong>Min Hyung</strong>. It is nice to see you. I am from <em>Seoul</em>.
+		</p>
+		<p>
+			I am twenty five years old. Please tell me <a href="http://google.com" target="_blank">that does not matter at all</a>
+		</p>
+
+		<!-- Lists -->
+		<ul>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</ul>
+
+		<OL>
+			<li>List Item 1</li>
+			<li>List Item 2</li>
+			<li>List Item 3</li>
+			<li>List Item 4</li>
+		</OL>
+
+		<!-- Table -->
+		<table>
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>Email</th>
+					<th>Age</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Min Hyung Lee</td>
+					<td>lmhljhlmhljh@naver.com</td>
+					<td>24</td>
+				</tr>
+				<tr>
+					<td>Min Seok Park</td>
+					<td>MSPark@naver.com</td>
+					<td>24</td>
+				</tr>
+				<tr>
+					<td>Jong Wook Lee</td>
+					<td>JWLEe@naver.com</td>
+					<td>24</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<br>
+		<hr>
+		<br>
+
+		<!-- Forms -->
+		<form action="process.php" method = "GET">
+			<div>
+				<label>First Name</label>
+				<input type="text" name="first-name"
+				placeholder= "Enter first name">
+			</div>
+			<br>
+			<div>
+				<label>Last Name</label>
+				<input type="text" name="lastname">
+			</div>
+			<br>
+			<div>
+				<label>Email</label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label>Message</label>
+				<textarea> name="message"></textarea>
+			</div>
+			<br>
+			<div>
+				<label>Gender</label>
+				<select name="gender">
+					<option value="male">Male</option>	
+					<option value="female">Female</option>	
+					<option value="other">Other</option>	
+				</select>
+			</div>
+			<br>
+			<div>
+				<label>Age :</label>
+				<input type="number" name="age" value="30">
+			</div>
+			<br>
+			<div>s
+				<label>Birthday :</label>
+				<input type="date" name="birthday">
+				</select>
+			</div>
+			<br>
+			<input type="submit" name="submit"
+			value="Submit">
+
+		</form>
+		<br>
+
+		<!-- Button -->
+		<button>Click me</button>
+		<br>
+
+		<!-- Image, 같은 folder에 있기 때문에 -->
+		<a href="images/sample.jpg">
+		<img src="images/sample.jpg" 
+		width ="200" height ="200">
+		</a>
+
+		<!-- Quotations -->
+		<blockquote cite="http://www.naver.com">
+			Hello My name is Min Hyung
+		</blockquote>
+
+		<p>The <abbr title="World Wide Web">WWW</abbr> is awesome</p>
+
+		<p><cite>HTML crash course</cite> by Brad Traversy</p>
+
+	</body>
+</html>
+
+<!-- CSS를 써야 더 예뻐진다 -->
