@@ -1,2 +1,6 @@
-# HTML-practie
-Learn HTML
+# HTML-practice
+
+### Contents
+- html 
+- css
+- javascript
